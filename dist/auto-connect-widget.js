@@ -168,11 +168,23 @@
 .ac-4b1c28a1 {
     background-color:#04ff00;border:none;border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#111827;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
 }
+
+.ac-0386026a {
+    background-color:#04ff00;border:none;border-radius:1px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#111827;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
+}
+
+.ac-ed7d185d {
+    background-color:#04ff00;border:none;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#111827;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
+}
+
+.ac-c25ef209 {
+    background-color:#04ff00;border:none;border-radius:100px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#111827;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
+}
 `;
 
   // Inject HTML
   const wrapper = document.createElement("div");
-  wrapper.innerHTML = `<div id="auto-connect-preview-root"><div class="ac-4b1c28a1"><h4 class="ac-3ea1708e">Card Title</h4><p class="ac-6b5c8d0e">This is a preview card. Styles applied here will be exported exactly the same into WordPress. All styles are dynamically generated CSS classes and are completely WordPress-safe.</p></div></div>`;
+  wrapper.innerHTML = `<div id="auto-connect-preview-root"><div class="ac-c25ef209"><h4 class="ac-3ea1708e">Card Title</h4><p class="ac-6b5c8d0e">This is a preview card. Styles applied here will be exported exactly the same into WordPress. All styles are dynamically generated CSS classes and are completely WordPress-safe.</p></div></div>`;
 
   shadow.appendChild(style);
   shadow.appendChild(wrapper);
