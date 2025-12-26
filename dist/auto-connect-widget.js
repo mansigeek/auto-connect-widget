@@ -464,11 +464,15 @@
 .ac-4ef84ae4 {
     background-color:#c0a5a5;border:none;border-radius:100px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#ffffff;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
 }
+
+.ac-287e76bc {
+    background-color:#8e2929;border:none;border-radius:100px;box-shadow:0 1px 2px rgba(0,0,0,0.05);color:#ffffff;font-family:inherit;max-width:28rem;padding:16px;transition:all 150ms ease;
+}
 `;
 
   // Inject HTML
   const wrapper = document.createElement("div");
-  wrapper.innerHTML = `<div id="auto-connect-preview-root"><div class="ac-4ef84ae4"><h4 class="ac-3ea1708e">Card Title</h4><p class="ac-6b5c8d0e">This is a preview card. Styles applied here will be exported exactly the same into WordPress. All styles are dynamically generated CSS classes and are completely WordPress-safe.</p></div></div>`;
+  wrapper.innerHTML = `<div id="auto-connect-preview-root"><div class="ac-287e76bc"><h4 class="ac-3ea1708e">Card Title</h4><p class="ac-6b5c8d0e">This is a preview card. Styles applied here will be exported exactly the same into WordPress. All styles are dynamically generated CSS classes and are completely WordPress-safe.</p></div></div>`;
 
   shadow.appendChild(style);
   shadow.appendChild(wrapper);
